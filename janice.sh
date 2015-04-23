@@ -30,7 +30,7 @@ echo ""
 chmod 777 patch.sh 
 . patch.sh
 . build/envsetup.sh
-lunch full_janice-userdebug
+lunch aosp_janice-userdebug
 time1=$(date +%s.%N)
 make otapackage -j$NBR
 time2=$(date +%s.%N)
